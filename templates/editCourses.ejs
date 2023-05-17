@@ -16,7 +16,7 @@
 	<div><%- availableCoursesTable %></div>
 	<br>
 	<h3>Add Course</h3>
-	<form action="http://localhost:5000/processAddCourse" method="post">
+	<form action="/processAddCourse" method="post">
 		<fieldset>
 			<div><%- errorStatus %></div>
 			
@@ -47,7 +47,7 @@
 	</form>
 
     <h3>Remove Course</h3>
-	<form action="http://localhost:5000/processRemoveCourse" method="post">
+	<form action="/processRemoveCourse" method="post">
 		<fieldset>			
 			<label><strong>Course Code: </strong><input type="text" name="code" required/></label><br>
             
