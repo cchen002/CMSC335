@@ -18,7 +18,7 @@
 	<div><%- availableCoursesTable %></div>
 	<br>
 	<h3>Add Course to Schedule</h3>
-	<form action="/processAdd" method="post">
+	<form action= "/processAdd" method="post">
 		<fieldset>
 			<div><%- errorStatus %></div>
 			
@@ -32,7 +32,7 @@
 	</form>
 
 	<h3>Remove Course from Schedule</h3>
-	<form action="/processRemove" method="post">
+	<form action= "/processRemove" method="post">
 		<fieldset>		
 			<label><strong>Course Code: </strong><input type="text" name="code"/></label>
 			
